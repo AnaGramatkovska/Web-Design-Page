@@ -1,0 +1,100 @@
+body{
+    background-color: #0a121e;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.etn-event-countdown-wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-top: 55px;
+}
+
+.badge{
+    padding: 10px;
+
+}
+
+.etn-event-countdown-wrap .etn-count-item {
+    font-size: 26px;
+    line-height: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 18px 0;
+    margin: 0 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80px;
+    width: 80px;
+    text-align: center;
+}
+
+.course-content-area .course-entry-content .content-block .curriculum-content {
+    border: 1px solid #e3e3e8;
+    margin-bottom: -1px;
+}
+.container{
+    padding-top: 20px;
+}
+.course-sidebar{
+    margin: 10px;
+}
+.course-sidebar .course-price-details {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-bottom: 28px;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-bottom: 8px;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+ul {
+    list-style: none;
+}
+
+.course-intro {
+    width: 90%;
+}
+
+.course-intro ul {
+    padding-left: 0;
+}
+
+.course-intro p  {
+    margin: 0;
+}
+
+
+.course-sidebar {
+    background-color: #1A212C;
+    border-radius: 20px;
+}
+
+.course-single-info {
+    padding-left: 2rem;
+}
+
+.price{
+    padding-top: 50px;
+    font-size: 50px;
+    color: #F14D5D;
+}
+
+.i{
+    display: flex;
+    justify-content: space-between;
+
+}
